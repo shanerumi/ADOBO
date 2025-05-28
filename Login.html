@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | ADO - FINIX</title>
+  <link rel="stylesheet" href="Login.css" />
+  <script src="Login.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-left">
+      <img src="aa.png" alt="Logo" class="login-image"/>
+      <h1>ADO-FINIX</h1>
+    </div>
+    <div class="login-right">
+      <h2>Log In</h2>
+      <form name="loginfrm">
+        <input type="text" name="uname" placeholder="Username" required />
+        <input type="password" name="pass" placeholder="Password" required />
+        <p id="error-message"></p>
+        <button type="button" onclick="login()">Log In</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

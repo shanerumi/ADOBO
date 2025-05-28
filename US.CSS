@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f4f8;
+  color: #333;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #1e2a78;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+aside {
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.nav li a:hover {
+  transform: translateX(10px);
+  color: #00d9ff;
+}
+
+.main-container {
+  margin-left: 250px;
+  padding: 40px 30px;
+}
+
+.login-history-section {
+  margin-left: 250px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  color: #2b2bb0;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.settings-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.settings-form label {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+  color: #333;
+}
+
+.settings-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.settings-form button {
+  background-color: #2b2bb0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.settings-form button:hover {
+  background-color: #1e1e99;
+}
+
+.login-history-section h2 {
+  margin-bottom: 20px;
+  color: #2b2bb0;
+}
+
+.login-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.login-history-table th,
+.login-history-table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.login-history-table th {
+  background-color: #1e2a78;
+  color: white;
+}
+
+.see-more {
+  display: inline-block;
+  color: #1e2a78;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+}

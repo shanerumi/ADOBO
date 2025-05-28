@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f8;
+    color: #333;
+  }
+  
+  aside {
+    width: 250px;
+    height: 100%;
+    background-color: #1e2a78;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .nav li a:hover {
+    transform: translateX(10px);
+    color: #00d9ff;
+  }
+  
+  .main {
+    margin-left: 270px;
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main h1 {
+    margin-bottom: 30px;
+    color: #2626d6;
+  }
+  
+  .form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #2626d6;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .form-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-container input,.form-container select {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-container input:focus,.form-container select:focus {
+    border-color: #1e2a78;
+    outline: none;
+  }
+  
+  .add-user-btn {
+    background-color: #1e2a78;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #3244b8;
+  }
+  

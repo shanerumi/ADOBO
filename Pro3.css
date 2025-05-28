@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1e2a78;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #87ceeb; 
+    text-shadow: 0 0 8px #87ceeb; 
+  }
+  
+  .phone {
+    background-image: url('https://d3o31au25zfcly.cloudfront.net/newfileadmin/usp/note/note-50/sec1/pc/ph-kv-pc.webp');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about, .tickets, .contact {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .about h2, .tickets h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #1e2a78;
+  }
+  
+  .about img, .tickets img {
+    width: 100%;
+    max-width: 12000px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+  
+  .contact {
+    background: linear-gradient(135deg, #1e2a78, #3a3f99);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    
+  }
+  
+  .contact h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .contact p {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+  }
+  
+  footer {
+    background-color: #1e2a78;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .about h1 {
+    color: #2626d6;
+  }
+  

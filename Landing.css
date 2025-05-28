@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .site-header {
+    background: linear-gradient(90deg, #1e2a78 0%, #2e3b94 100%);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;  
+  }
+  
+  .logo {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+
+  .headercon {
+    position: relative;
+    background-image: url(https://github.com/shanerumi/milachan/blob/main/2aea1ed75913e6f8ad47baa19ae9cdc1.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .hero-text button {
+    padding: 12px 24px;
+    background-color: #1e2a78;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .hero-text button:hover {
+    background-color: white;
+    color: #1e2a78;
+    transform: scale(1.1);
+  }
+  
+  .footer {
+    background-color: #1e2a78;
+    color: white;
+    padding: 40px 20px 80px; 
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column {
+    flex: 1 1 250px;
+    margin: 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 0.95rem;
+    color: #d0d0d0;
+  }
+  
+  .footer-links h3,
+  .footer-social h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 8px 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  .logo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+    border: 2px solid white;
+    margin-left: 33px;
+  }
+  
+  .shop-name {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+    .footer-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+    width: 100%;
+  }
+  
+
+  

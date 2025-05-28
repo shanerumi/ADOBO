@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f4f8;
+  color: #333;
+}
+
+aside {
+  width: 250px;
+  height: 100vh;
+  background-color: #1e2a78;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.nav li a:hover {
+  transform: translateX(10px);
+  color: #00d9ff;
+}
+.main-content{
+  flex: 1;
+  padding: 30px;
+  overflow-x: auto;
+}
+
+h1{
+  margin-bottom: 20px;
+  color: #2626d6;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td{
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+thead{
+  background-color: #1e2a78;
+  color: white;
+}
+
+.btn{
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-custom{
+  background-color: #1e2a78;
+  color: white;
+}
+
+.btn-danger{
+  background-color: #1e2a78;
+  color: white;
+}
+
+.btn-success{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1e2a78;
+  color: white;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 30px;
+  overflow-x: auto;
+}
+
+.main-content a{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+form table {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #1e2a78;
+}

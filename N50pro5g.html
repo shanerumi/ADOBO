@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales Report - ADO-FINIX</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="ProductEdit.css" />
+</head>
+<body>
+  <aside>
+    <div class="logo">
+      <img src="https://github.com/shanerumi/himikotoga/blob/main/aa.png?raw=true" alt="Infinix Logo">
+      <h1>ADO-FINIX</h1>
+    </div>
+    <ul class="nav">
+      <li><a href="Home.html"><i class='bx bx-home'></i> Home</a></li>
+      <li><a href="Monitoring.html"><i class='bx bx-bar-chart-alt-2'></i> Monitoring</a></li>
+      <li><a href="Control.html"><i class='bx bxs-hard-hat'></i> Controlling</a></li>
+      <li><a href="UM.html"><i class='bx bx-user'></i> User Management</a></li>
+      <li><a href="PM.html"><i class='bx bx-box'></i> Product Management</a></li>
+      <li><a href="PHONES1.html"><i class='bx bx-list-ul'></i> List of Supply</a></li>
+      <li><a href="Inventory.html"><i class='bx bx-package'></i> Inventory</a></li>
+      <li><a href="Transaction.html"><i class='bx bx-history'></i> Transaction History</a></li>
+      <li><a href="Sales1.html"><i class='bx bx-chart'></i><b> Sales Report</b></a></li>
+      <li><a href="US.HTML"><i class='bx bx-cog'></i> User Settings</a></li>
+      <li><a href="Login.html"><i class='bx bx-log-out'></i> Log out</a></li>
+    </ul>
+  </aside>
+  <div class="main-content">
+    <h1>Edit Product - Note 50 Pro+ 5G</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGQQctZ7uJwmqfF9OanQhNFNW1pGrisqiWPen_nmQ8KckgANNCIwIQMw&s=10" style="height: 200px; width: 200px; padding: 10px; outline: solid black; border-radius: 5px">
+    <form>
+      <table>
+        <tr>
+          <td><label for="name">Product Name:</label></td>
+          <td><input type="text" id="name" name="name" value="NOTE 50 Pro+ 5G" /></td>
+        </tr>
+        <tr>
+          <td><label for="stock">Current Stock:</label></td>
+          <td><input type="number" id="stock" name="stock" value="50" /></td>
+        </tr>
+        <tr>
+          <td><label for="status">Status:</label></td>
+          <td>
+            <select id="status" name="status">
+              <option value="active" selected>Active</option>
+              <option value="inactive">Inactive</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="price">Price:</label></td>
+          <td><input type="text" id="price" name="price" value="₱17,999.00" /></td>
+        </tr>
+        <tr>
+          <td><label for="description">Description:</label></td>
+          <td><textarea id="description" name="description" rows="4">6.78" 144Hz 1080p AMOLED screen, MediaTek Dimensity 8350 ULTIMATE Proccessor, 50MP Main Camera, 5200mAh Battery</textarea></td>
+        </tr>
+      </table>
+      <button class="btn btn-success" type="submit"><a href="PM.html">Save Changes</a></button>
+      <button class="btn btn-success" type="submit" style="background-color: #e63737;"><a href="PManagement.html">Cancel</a></button>
+    </form>
+  </div>
+</body>
+</html>
